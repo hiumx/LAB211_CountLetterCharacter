@@ -64,9 +64,4 @@ public class CountLetterCharacter extends Menu<String> {
                 break;
         }
     }
-
-    public static void main(String[] args) {
-        Library library = new Library();
-        new CountLetterCharacter().run();
-    }
 }

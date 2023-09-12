@@ -15,7 +15,7 @@ public class Algorithms {
     public Map<String, Integer> countLetters(String stringInput) {
         Map<String, Integer> result = new HashMap<>();
 
-        String[] words = stringInput.split(" ");
+        String[] words = stringInput.split("\\s+");
 
         for (String word : words) {
             word = word.replaceAll("[^a-zA-Z0-9]", "");
